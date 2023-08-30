@@ -14,13 +14,6 @@ public class EX001 {
         }else{
             System.out.println("MAIOR QUE 10!");
         }
-        
-
-        
-
-        
-    
-
 
     }
 }
