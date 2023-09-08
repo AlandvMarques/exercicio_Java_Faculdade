@@ -1,6 +1,8 @@
+package listaNum01;
+
 import java.util.Scanner;
 
-public class EX006 {
+public class EX007 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite um número: ");
@@ -10,13 +12,11 @@ public class EX006 {
         System.out.println("Digite outro número: ");
         float num2 = input2.nextFloat();
 
-
-        if(num1 > num2){
-            System.out.println("O número maior é:" + num1);
+        if(num1 < num2){
+            System.out.println(num1 + "," + num2);
         }else{
-            System.out.println("O número maior é:" + num2);
+            System.out.println(num2 + "," + num1);
         }
-
-        input.close();
+        
     }
 }
